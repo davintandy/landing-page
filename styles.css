@@ -5,18 +5,27 @@ body {
     flex-direction: column;
 }
 
+p {
+    margin: 0;
+}
+
 .header {
     background-color: #1F2937;
-    padding: 0 48px;
+    padding: 32px 128px;
     display: flex;
     justify-content: space-between;
 }
 
 .content1 {
     background-color: #1F2937;
-    padding: 48px;
+    padding: 64px 128px;
     display: flex;
-    gap: 24px;
+    gap: 64px;
+}
+
+.content2 {
+    padding: 32px 256px 64px;
+    text-align: center;
 }
 
 .header-text {
@@ -28,17 +37,39 @@ body {
 .links {
     display: flex;
     align-items: center;
-    gap: 24px;
+    gap: 32px;
 }
 
 .text {
     flex: 1;
 }
 
+.image {
+    background-color: #6D747D;
+    color: #F9FAF8;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    flex: 1;
+}
+
+.bold {
+    font-size: 24px;
+    font-weight: 900;
+    margin-bottom: 32px;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    gap: 32px;
+}
+
 .secondary-text {
     text-decoration: none;
     color: #E5E7EB;
     font-size: 18px;
+    margin: 32px 0;
 }
 
 .main-text {
@@ -52,16 +83,18 @@ body {
     color: #F9FAF8;
     font-size: 18px;
     font-weight: 900;
-    padding: 9px 18px;
+    padding: 8px 16px;
     border: none;
-    border-radius: 9px;
+    border-radius: 8px;
 }
 
-.image {
-    background-color: #6D747D;
-    color: #F9FAF8;
-    display: flex;
-    align-items: center;
-    text-align: center;
-    flex: 1;
+.card {
+    width: 256px;
+}
+
+.images {
+    width: 128px;
+    height: 128px;
+    border: 4px solid #3882F6;
+    border-radius: 8px;
 }
