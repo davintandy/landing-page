@@ -136,3 +136,27 @@ button {
     font-weight: 900;
     align-self: flex-end;
 }
+
+.signup-content {
+    background-color: #3882F6;
+    margin: 128px;
+    padding: 64px 128px;
+    border-radius: 16px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.signup-title {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.signup-text {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.signup-button {
+    border: 2px #F9FAF8 solid;
+    padding: 4px 32px;
+}
