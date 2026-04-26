@@ -160,3 +160,11 @@ button {
     border: 2px #F9FAF8 solid;
     padding: 4px 32px;
 }
+
+.footer {
+    background-color: #1F2937;
+    color: #E5E7EB;
+    font-size: 18px;
+    padding: 32px;
+    text-align: center;
+}
